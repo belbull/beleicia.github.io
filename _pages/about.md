@@ -17,9 +17,7 @@ Beyond design metaphors, I have also explored how we can improve design through 
 
 Prior to Stanford, I earned an MS in CS at the University of Illinois Urbana-Champaign where I was advised by the wonderful Karrie Karahalios.
 
----
-
-# Selected Publications
+## Selected Publications
 
 {% if site.publication_category %}
 {% for category in site.publication_category  %}
