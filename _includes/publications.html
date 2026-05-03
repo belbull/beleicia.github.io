@@ -1,0 +1,26 @@
+
+<div class="pub">
+	<h4 class="pub-title">{{pub.title}}</h4>
+	<div class="pub-authors">
+		{% for author in pub.authors %}
+			{% if forloop.index == pub.author_num and forloop.last %}
+				<span class="pub-author author_me">{{author}}</span>
+			{% elsif forloop.index == pub.author_num and !forloop.last %}
+				<span class="pub-author author_me">{{author}}, </span>
+			{% elsif forloop.last%}
+				<span class="pub-author">{{author}}</span>
+			{% else %}
+				<span class="pub-author">{{author}}, </span>
+			{% endif %}
+		{% endfor %}
+	</div>
+	<div class="pub-venue"><i>{{pub.conference}} '{{pub.year}}</i></div>
+	<div class="pub-description">{{pub.content}}</div>
+	<div class="pub-links">
+		<ul>
+			<li><a href="{{pub.pdf}}">pdf</a></li>
+			<li><a href="{{pub.slides}}">slides</a></li>
+			<li><a href="{{pub.link}}">doi</a></li>
+		</ul>
+	</div>
+</div>

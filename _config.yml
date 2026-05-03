@@ -1,0 +1,22 @@
+collections:
+  updates:
+    output: true
+    sort: date
+  publications:
+    output: true
+  projects:
+    output: true
+    sort_by: year
+
+
+defaults:
+  #updates
+  - scope:
+      path: ""
+      type: updates
+  - scope: 
+      path: ""
+      type: publications
+  - scope:
+      path: ""
+      type: projects
