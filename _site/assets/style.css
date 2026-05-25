@@ -41,15 +41,27 @@
     --z-modal: 1000;
     
     /* Pine Forest Theme Colors - Light Mode */
-    --background-color: #F5F7F3; /* Light pine needle mist */
-    --heading-color: #1A3025; /* Deep forest green */
-    --text-color: #0F2018; /* Dark pine shadow */
-    --link-color: #2D5016; /* Forest moss */
-    --visited-color: #1E3A11; /* Deep woodland */
-    --main-color: #4A7C59; /* Pine needle green */
-    --code-background-color: #E8EDEA; /* Frosted pine */
-    --code-color: #1A3025; /* Deep forest green */
-    --blockquote-color: #7A9B85; /* Sage green */
+    /*--background-color: #F5F7F3; */
+    /*--heading-color: #1A3025; */
+    /*--text-color: #0F2018; */
+    /*--link-color: #2D5016; */
+    /*--visited-color: #1E3A11; */
+    /*--main-color: #4A7C59; */
+    /*--code-background-color: #E8EDEA; */
+    /*--code-color: #1A3025; */
+    /*--blockquote-color: #7A9B85;*/
+
+    --background-color: #F4F0FA;
+    --heading-color: #120820;
+    --text-color: #1A1028;
+    --link-color: #5020A0;
+    --visited-color: #380A78;
+    --main-color: #7040C0;
+    --code-background-color: #E8E0F4;
+    --code-color: #120820;
+    --blockquote-color: #9878CC;
+
+
     
     /* Interactive colors derived from theme */
     --hover-color: white;
@@ -64,15 +76,15 @@
 /* Dark Mode Color Overrides */
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: #0D1B12; /* Dark pine shadow */
-        --heading-color: #C8D8CE; /* Light pine mist */
-        --text-color: #E0EADE; /* Pale forest light */
-        --link-color: #7AB069; /* Bright moss green */
-        --visited-color: #9BC490; /* Light woodland */
-        --main-color: #8BB899; /* Soft pine green */
-        --code-background-color: #1A2B1F; /* Dark evergreen */
-        --code-color: #C8D8CE; /* Light pine mist */
-        --blockquote-color: #4A6B52; /* Forest undergrowth */
+       /* --background-color: #0D1B12; 
+        --heading-color: #C8D8CE; 
+        --text-color: #E0EADE; 
+        --link-color: #7AB069; 
+        --visited-color: #9BC490;
+        --main-color: #8BB899;
+        --code-background-color: #1A2B1F;
+        --code-color: #C8D8CE; 
+        --blockquote-color: #4A6B52; */
         
         /* Dark mode glow effects */
         --glow-color-light: rgba(122, 176, 105, 0.3);

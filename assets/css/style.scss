@@ -1,0 +1,29 @@
+---
+---
+
+
+.pub{
+  display: grid;
+  grid-template-columns: 15% 85%;
+  margin-bottom: 40px;
+
+  .pub-title{
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .author-me{
+    font-style: italic;
+    font-color: --main-color;
+  }
+
+  .pub-links{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    list-style: none;
+    li{
+      margin-right: 20px;
+    }
+  }
+}
