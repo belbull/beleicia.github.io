@@ -1,7 +1,0 @@
-{
-  "chat.agent.enabled": false,
-  "chat.checkpoints.enabled": false,
-  "inlineChat.fixDiagnostics": false,
-  "inlineChat.askInChat": false,
-  "chat.disableAIFeatures": true
-}

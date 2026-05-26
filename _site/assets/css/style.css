@@ -32,9 +32,14 @@ header {
 }
 
 .pub {
-  display: grid;
-  grid-template-columns: 15% 85%;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 640px) {
+  .pub {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    margin-bottom: 30px;
+  }
 }
 .pub .pub-title {
   font-size: 16px;
