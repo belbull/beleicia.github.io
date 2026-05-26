@@ -7,4 +7,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.4"
 
 # theme: https://github.com/knhash/jekyllBear
-gem "jekyll-bear-theme"
+
+group :jekyll_plugins do
+	gem "jekyll-bear-theme"
+end
