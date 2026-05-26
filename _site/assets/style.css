@@ -76,15 +76,15 @@
 /* Dark Mode Color Overrides */
 @media (prefers-color-scheme: dark) {
     :root {
-       /* --background-color: #0D1B12; 
-        --heading-color: #C8D8CE; 
-        --text-color: #E0EADE; 
-        --link-color: #7AB069; 
-        --visited-color: #9BC490;
-        --main-color: #8BB899;
-        --code-background-color: #1A2B1F;
-        --code-color: #C8D8CE; 
-        --blockquote-color: #4A6B52; */
+        --background-color: #0D1B12; /* Dark pine shadow */
+        --heading-color: #C8D8CE; /* Light pine mist */
+        --text-color: #E0EADE; /* Pale forest light */
+        --link-color: #7AB069; /* Bright moss green */
+        --visited-color: #9BC490; /* Light woodland */
+        --main-color: #8BB899; /* Soft pine green */
+        --code-background-color: #1A2B1F; /* Dark evergreen */
+        --code-color: #C8D8CE; /* Light pine mist */
+        --blockquote-color: #4A6B52; /* Forest undergrowth */
         
         /* Dark mode glow effects */
         --glow-color-light: rgba(122, 176, 105, 0.3);

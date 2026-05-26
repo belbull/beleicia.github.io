@@ -4,7 +4,7 @@ authors: ["Beleicia Bullock", "Fernando Nascimento", "Stacy Doore"]
 date: 2021-01-01
 conference: "SIGCSE"
 slides:
-pdf: "..files/2021-computing-ethics-narratives.pdf"
+pdf: "../assets/files/2021-sigcse.pdf"
 link: "https://dl.acm.org/doi/abs/10.1145/3408877.3432468"
 ---
 
